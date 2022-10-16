@@ -8,12 +8,10 @@ Original file is located at
 
 ---
 import tensorflow as tf
-
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Conv2D, Flatten, Dropout, MaxPooling2D
 from keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt
