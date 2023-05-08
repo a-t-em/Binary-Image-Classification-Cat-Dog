@@ -6,4 +6,4 @@ This repository contains two models for classifying images of cats and dogs. The
 This is a simple CNN model. The model was trained without a pretrained base layer and utilizes a simple helper function to extract image and label data from the Kaggle dataset directory. It achieves an accuracy of around 70% on a held out test dataset of ~5,000 images.
 
 **freeCodeCamp Model**<br>
-This model uses MobileNetV2 as a base layer for a Keras Sequential model. The images were augmented using ImageDataGenerator to improve prediction accuracy. It achieves near 100% accuracy on the 50 images in the testing batch for this project. 
+This model uses MobileNetV2 as a base layer for a Keras Sequential model. The images were augmented using ImageDataGenerator to improve prediction accuracy. It achieves over 90% accuracy on the 50 images in the testing batch for this project.
